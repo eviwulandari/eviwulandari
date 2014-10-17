@@ -1,0 +1,38 @@
+
+package BiodataEvi;
+
+import java.util.Scanner;
+
+
+public class EviWulandari {
+
+    public static void main(String[] args) {
+   
+    Scanner input = new Scanner(System.in);
+    String nama,npm,kelas,umur,email;
+    
+    System.out.print("Masukkan Nama: ");
+    nama = input.nextLine();
+    
+    System.out.print("Masukkan NPM : ");
+    npm = input.nextLine();
+    
+    System.out.print("Masukkan Kelas : ");
+    kelas = input.nextLine();
+    
+    System.out.print("Masukkan Umur : ");
+    umur = input.nextLine();
+    
+    System.out.print("Masukkan e-mail : ");
+    email = input.nextLine();
+    
+    
+    System.out.println("Nama Anda      : "+nama);
+    System.out.println("NPM Anda       : "+npm);
+    System.out.println("Kelas Anda     : "+kelas);
+    System.out.println("Umur Anda      : "+umur);
+    System.out.println("E-mail Anda    : "+email);
+        
+    }
+    
+}
